@@ -1,4 +1,4 @@
-package binky.utils.logger
+package utils.logger
 
 import org.slf4j.LoggerFactory
 

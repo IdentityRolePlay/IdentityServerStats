@@ -14,6 +14,10 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("ch.qos.logback:logback-classic:1.2.8")
+    implementation("net.dv8tion:JDA:5.0.0-alpha.9")
+    implementation("io.goodforgod:gson-configuration:1.4.1")
+    implementation("io.github.cdimascio:dotenv-java:2.2.4")
 }
 
 tasks.test {
